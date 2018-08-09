@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="searchButton">#3CD2C0</color>
+    <color name="authorName">#7b7e7e</color>
+    <color name="buttonText">#e8f1f1</color>
+    <color name="bookName">#27252a</color>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:id="@+id/search_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+       <EditText
+           android:id="@+id/search_text"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:hint="write the name of the book "
+           android:layout_marginRight="8dp"
+           android:inputType="text"
+           android:maxLines="1"
+           />
+
+       <TextView
+           android:id="@+id/search_button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAllCaps="true"
+           android:text="Find"
+           android:layout_gravity="center"
+           android:textColor="@color/buttonText"
+           android:textSize="18sp"
+           android:padding="8dp"
+           android:layout_marginLeft="8dp"
+
+           />
+
+   </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateOnly="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        />
+
+</LinearLayout>
